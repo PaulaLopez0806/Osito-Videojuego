@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orange;
+}
+
+.fondoGame {
+    background-image: url(/imagenes/Bosque.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 70vh
+
+}
+
+.ositomover {
+    position: absolute;
+    animation: halloween 5s infinite;
+    top: 35vh;
+    left: 20%
+    
+}
+
+@keyframes halloween {
+    0% {top: 20vh; left: 0%; transform: rotate(180deg);}
+    20% {top: 40vh; left: 30%} 
+    60% {top: 20vh; left: 50%; transform: rotate(360deg);}
+    80% {top: 40vh; left: 70%;} 
+    100% {top: 20vh; left: 100%;} 
+    
+}
+
+.dotgothic16-regular {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal
+  }
+  
