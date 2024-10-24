@@ -3,11 +3,11 @@
 }
 
 body {
-    background-color: orange;
+    background-color: darkmagenta;
 }
 
 .fondoGame {
-    background-image: url(/imagenes/Bosque.jpg);
+    background-image: url(imagenes/FondoBosque.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
