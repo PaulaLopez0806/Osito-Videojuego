@@ -7,7 +7,7 @@ body {
 }
 
 .fondoGame {
-    background-image: url(/imagenes/FondoBosque.jpg);
+    background-image: url(imagenes/FondoBosque.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
